@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="png-clipart-math-calculator-computer1-icons-squaremath-information-calculadora-service-logo.png">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainbox">
+        <div class="caldiv">
+            <div class="appname">
+                <img class="iconcalc" src="png-clipart-math-calculator-computer1-icons-squaremath-information-calculadora-service-logo.png" alt="">
+                Calculator
+            </div>
+            <div class="textboxdiv">
+                <input id="display" class="textbox" type="text" disabled style="font-size: 20px;">
+            </div>
+            <div class="buttondiv">
+                <input id="num7" class="button" onclick="appendNumber('7')" type="button" value="7">
+                <input id="num8" class="button" onclick="appendNumber('8')" type="button" value="8">
+                <input id="num9" class="button" onclick="appendNumber('9')" type="button" value="9">
+                <input id="clr" class="button" onclick="clearDisplay()" type="button" value="Clr">
+                <input id="delete" class="button" onclick="deleteLast()" type="button" value="Del">
+                <input id="num4" class="button" onclick="appendNumber('4')" type="button" value="4">
+                <input id="num5" class="button" onclick="appendNumber('5')" type="button" value="5">
+                <input id="num6" class="button" onclick="appendNumber('6')" type="button" value="6">
+                <input id="mult" class="button" onclick="appendNumber('x')" type="button" value="x">
+                <input id="div" class="button" onclick="appendNumber('/')" type="button" value="/">
+                <input id="num1" class="button" onclick="appendNumber('1')" type="button" value="1">
+                <input id="num2" class="button" onclick="appendNumber('2')" type="button" value="2">
+                <input id="num3" class="button" onclick="appendNumber('3')" type="button" value="3">
+                <input id="add" class="button" onclick="appendNumber('+')" type="button" value="+">
+                <input id="sub" class="button" onclick="appendNumber('-')" type="button" value="-">
+            </div>
+            <div class="bottombuttons">
+                <input id="point" class="buttonb" onclick="appendNumber('.')" type="button" value=".">
+                <input id="num0" class="buttonb" onclick="appendNumber('0')" type="button" value="0">
+                <input id="percent" class="buttonb" onclick="appendNumber('%')" type="button" value="%">
+                <input id="eqlbtn" class="buttonb" onclick="calculate()" type="button" value="=">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+.appname{
+    color: orange;
+    font-size: 140%;
+    background-color:grey;
+    font-weight: bold;
+}
+
+.mainbox{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.caldiv{
+    background-color:dakblue;
+    height: 500px;
+    width: 84.5%;
+    brder: 1px solid red;
+    box-shadow: 20px 40px 18px hsl(239, 25%, 44%), 20px 20px 20px white;
+}
+
+.textboxdiv{
+    
+    border: 9px solid grey; 
+    height: 40px;    
+
+}
+
+.textbox{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+    
+   
+}
+
+.buttondiv{
+    width: 100%;
+    height: 65%;
+    box-sizing: border-box;
+    brder: 1px solid yellow;
+    background-color: grey;
+    
+
+}
+
+.button{
+    width: 19.53%;
+    height: 33%;
+    font-size: 30px; 
+}
+
+.bottombuttons{
+    height: 20.5%;
+    brder: 1px solid pink;
+    background-color: grey;
+}
+
+.buttonb{
+    width: 19.53%;
+    height: 100%;
+    font-size: 30px;
+    
+}
+
+#eqlbtn{
+    width: 39.8%;
+    color: white;
+    background-color: red;
+}
+
+#num7{
+    background-color: black;
+    color: white;
+}
+
+#num8{
+    background-color: black;
+    color: white;
+}
+
+#num9{
+    background-color: black;
+    color: white;
+}
+
+#num4{
+    background-color: black;
+    color: white;
+}
+
+#num5{
+    background-color: black;
+    color: white;
+}
+
+#num6{
+    background-color: black;
+    color: white;
+}
+
+#num1{
+    background-color: black;
+    color: white;
+}
+
+#num2{
+    background-color: black;
+    color: white;
+}
+
+#num3{
+    background-color: black;
+    color: white;
+}
+
+#num0{
+    background-color: black;
+    color: white;
+}
+
+#clr{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+#delete{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+#mult{
+    background-color: orange;
+    color: black;
+}
+
+#div{
+    background-color: orange;
+    color: black;
+}
+
+#add{
+    background-color: orange;
+    color: black;
+}
+
+#sub{
+    background-color: orange;
+    color: black;
+}
+
+#point{
+    background-color: orange;
+}
+
+#percent{
+    background-color: orange;
+}
+
+.iconcalc{
+    height: 20px;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
